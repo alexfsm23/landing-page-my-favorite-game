@@ -1,0 +1,256 @@
+:root {
+    --font-color-1: #fafafa;
+    --font-color-2: #de8816;
+    --font-color-3: #fbd922;
+    --bg-color-1: #060a0d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(42,43,37);
+    background: linear-gradient(180deg, rgba(42,43,37,1) 0%, rgba(56,60,53,1) 30%, rgba(65,71,60,1) 60%, rgba(86,95,82,1) 80%, rgba(116,122,109,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    color: var(--font-color-1);
+}
+
+input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 16px 0;
+    color: var(--font-color-1);
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    width: 250px;
+}
+
+.header .navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.header .navbar ul li {
+    margin-left: 16px;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    width: 140px;
+    text-align: center;
+}
+
+.header .navbar ul li a {
+    color: var(--font-color-1);
+    text-decoration: none;
+}
+
+.header .navbar ul li a:hover {
+    color: var(--font-color-2);
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.about {
+    margin: 40px 0;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.about .game-image {
+    width: 600px;
+    border-radius: 5px 50px 5px 50px;
+    margin-right: 40px;
+    transition: 1s ease-in;
+}
+
+
+.about .game-image:hover {
+    box-shadow: 0px 0px 20px var(--font-color-2);
+}
+
+.title-section {
+    color: var(--font-color-2);
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.about p {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.about .container-icons {
+    margin-top: 30px;
+}
+
+.about .container-icons i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.about .container-icons i:first-child:hover {
+    color: #107c10;
+}
+
+.about .container-icons i:nth-child(2):hover {
+    color: #1b397e;
+}
+
+.about .container-icons i:last-child:hover {
+    color: #0078d4;
+}
+
+.about .container-history {
+    position: relative;
+}
+
+.contact h3 {
+    color: var(--font-color-2);
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact form {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    flex-direction: column;
+}
+
+.contact label {
+    color: var(--font-color-1);
+    font-size: 16px;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    outline: none;
+    border: none;
+    background-color: var(--font-color-1);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 12px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.contact input:hover,
+.contact textarea:hover {
+    box-shadow: 0 0 10px var(--font-color-2);
+}
+
+
+.contact textarea {
+    padding: 9px 19px;
+    text-align: center;
+    resize: none;
+    height: 180px;
+}
+
+.contact button {
+    background-color: var(--font-color-2);
+    padding: 15px 65px;
+    border-radius: 15px;
+    color: var(--font-color-1);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 1s ease-in;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: var(--font-color-1);
+    color: var(--font-color-2)
+}
+
+.contact div ul {
+    list-style: none;
+    display: flex;
+    padding: 15px 0;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.contact div ul li a {
+    color: var(--font-color-1);
+    font-size: 35px;
+    margin-right: 20px;
+    transition: 0.5s ease-in;
+}
+
+.contact div ul li a:hover {
+    color: var(--font-color-2)
+}
+
+.contact address {
+    color: var(--font-color-1);
+    font-size: 16px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.contact .maps {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 50px;
+}
+
+.contact .contact-methods {
+    display: flex;
+}
+
+.contact .container-contacts {
+    margin-top: 35px;
+    text-align: center;
+    padding: 25px 35px;
+}
+
+.footer {
+    padding: 25px 0;
+    width: 100%;
+    background-color: var(--bg-color-1);
+    color: var(--font-color-1);
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer span {
+    color: var(--font-color-2);
+}
+
+.footer h4 {
+    margin: 10px 0;
+    font-weight: normal;
+    color: var(--font-color-2);
+    font-size: 22px;
+}
