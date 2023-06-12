@@ -17,7 +17,8 @@ Tabela de conteúdos
    * [License](#License)
 <!--te--> 
 
-## Screenshots :camera_flash: 
+## Screenshots
+
 <!-- You can add more screenshots here if you like -->
 <img src="/screenshots/website.png" width="500px">
 <img src="/screenshots/website-2.png" width="500px">
