@@ -14,11 +14,10 @@ Tabela de conteúdos
    * [Pré-requisitos](#Pré-requisitos)
    * [Tecnologias](#Tecnologias)
    * [Autor](#Autor)
-   * [Como usar](#como-usar)
    * [License](#License)
 <!--te--> 
 
-## :camera_flash: Screenshots
+## Screenshots :camera_flash: 
 <!-- You can add more screenshots here if you like -->
 <img src="/screenshots/website.png" width="500px">
 <img src="/screenshots/website-2.png" width="500px">
